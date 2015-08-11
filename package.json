@@ -1,0 +1,37 @@
+{
+  "name": "couchbulkimporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test"
+  },
+  "author": "Robert Kowalski <rok@kowalski.gd>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "request": "~2.55.0"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/robertkowalski/couchbulkimporter/issues"
+  },
+  "homepage": "https://github.com/robertkowalski/couchbulkimporter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertkowalski/couchbulkimporter.git"
+  },
+  "keywords": [
+    "couchdb"
+  ],
+  "devDependencies": {
+    "hock": "~1.2.0",
+    "tap": "~1.1.0",
+    "bulkbadger": "*"
+  },
+  "optionalDependencies": {
+    "mongodb": "~2.0.31",
+    "csv-parse": "~1.0.0",
+    "JSONStream": "~1.0.3",
+    "stream-transform": "~0.1.0"
+  }
+}
